@@ -1,0 +1,21 @@
+{
+    "name": "iluhansk/yii2-renderer",
+    "description": "Provides visualization functionality (rendering templates) to any component of yii2 application",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","render","rendering","template","view"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Ilya Perfilyev",
+            "email": "ilya_perfi@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iluhansk\\renderer\\": ""
+        }
+    }
+}
